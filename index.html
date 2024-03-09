@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta boxarset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxess</title>
+    <style>
+        .main{
+            border: 2px solid black;
+            height: 640px;
+            width:640px;
+            display: grid;
+            grid-template-columns: repeat(8,80px);
+           grid-template-rows: repeat(8,80px);
+        }
+         
+        .box{
+            /* display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black; */    
+            border: 2px solid black;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+        }
+           .b1:nth-child(2n+1)   {
+            background-color:black;
+            color: white;
+           }
+        .b2:nth-child(2n){
+            background-color: black;
+            color: white;
+        }
+        .ho:hover{
+            transform: scale(1.3);
+            border: 1px solid transparent;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="box b1 ho">&#9814;</div> 
+        <div class="box b1 ho">&#9816;</div>
+        <div class="box b1 ho">&#9815;</div>
+        <div class="box b1 ho">&#9819;</div>
+        <div class="box b1 ho">&#9818;</div>
+        <div class="box b1 ho">&#9815;</div>
+        <div class="box b1 ho">&#9816;</div>
+        <div class="box b1 ho">&#9814;</div> 
+
+        <div class="box b2 ho">&#9817;</div>
+        <div class="box b2 ho">&#9817;</div>
+        <div class="box b2 ho">&#9817;</div>
+        <div class="box b2 ho">&#9817;</div>
+        <div class="box b2 ho">&#9817;</div>
+        <div class="box b2 ho">&#9817;</div>
+        <div class="box b2 ho">&#9817;</div> 
+        <div class="box b2 ho">&#9817;</div>
+
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1" ></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div> 
+        <div class="box b1"></div>  
+      
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div> 
+        <div class="box b2"></div>
+
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div>
+        <div class="box b1"></div> 
+        <div class="box b1"></div>        
+       
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div>
+        <div class="box b2"></div> 
+        <div class="box b2"></div> 
+        
+        <div class="box b1 ho">&#9817;</div> 
+        <div class="box b1 ho">&#9817;</div>
+        <div class="box b1 ho">&#9817;</div>
+        <div class="box b1 ho">&#9817;</div>
+        <div class="box b1 ho">&#9817;</div>
+        <div class="box b1 ho">&#9817;</div>
+        <div class="box b1 ho">&#9817;</div>
+        <div class="box b1 ho">&#9817;</div> 
+         
+        <div class="box b2 ho">&#9817;</div>
+        <div class="box b2 ho">&#9816;</div>
+        <div class="box b2 ho">&#9815;</div>
+        <div class="box b2 ho">&#9819;</div>
+        <div class="box b2 ho">&#9818;</div>
+        <div class="box b2 ho">&#9815;</div>
+        <div class="box b2 ho">&#9816;</div> 
+        <div class="box b2 ho">&#9814;;</div>
+
+    </div>
+</body>
+</html>
